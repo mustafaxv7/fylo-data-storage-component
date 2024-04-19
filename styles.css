@@ -43,7 +43,6 @@ main {
     gap: 30px;
     max-width: 600px;
     width: 60%;
-    margin-left: 10rem;
 }
 
 .logo {
@@ -59,6 +58,7 @@ main {
     gap: 40px;
     padding: 50px 150px 45px 60px;
     box-shadow: 34px 42px 100px var(--color-box-shadow);
+    margin-left: 100px;
     animation: actions-animation 2s ease-in-out;
 }
 
