@@ -28,7 +28,7 @@ body {
     min-height: 100vh;
     height: fit-content;
     background: url(./images/bg-desktop.png) no-repeat  bottom, var(--color-neutral-very-dark-blue);
-    background-size: 100%  310px ;
+    background-size: 100%  315px ;
     font-family: var(--font-family);
     font-size: var(--font-size);
     display: grid;
@@ -38,7 +38,7 @@ body {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: end;
     gap: 30px;
     max-width: 600px;
@@ -57,8 +57,8 @@ main {
     flex-direction: column;
     gap: 40px;
     padding: 50px 150px 45px 60px;
-    box-shadow: 34px 42px 100px var(--color-box-shadow);
     margin-left: 100px;
+    box-shadow: 34px 42px 100px var(--color-box-shadow);
     animation: actions-animation 2s ease-in-out;
 }
 
